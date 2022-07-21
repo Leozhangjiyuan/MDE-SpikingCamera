@@ -5,7 +5,7 @@ Codes and Datasets of **"Spike Transformer: Monocular Depth Estimation for Spiki
 Jiyuan Zhang*, Lulu Tang*, Zhaofei Yu $\dagger$, Jiwen Lu and Tiejun Huang
 
  European Conference on Computer Vision (**ECCV**) 2022.
- ______________________________________________________________
+ __________________________________________________
 
 ## Code
 

@@ -4,7 +4,7 @@
 To train the model, you need to set some esstential parameters in the config file. Config files should be put in the `./config/` folder. In addition, the training dataset is a folder named 'DENSE', and please set parameter `--datafolder` in command to set the root folder of the dataset 'DENSE'. In the config file You alse may pay attention to the `save_dir` setting that saves all checkpoints of the model and detailed information during training.
 
 ```bash
-CUDA_VISIBLE_DEVICES=0 python train_parallel.py --config configs/train_s2d_spiketransformer.json --datafolder ...`
+CUDA_VISIBLE_DEVICES=0 python train_parallel.py --config configs/train_s2d_spiketransformer.json --datafolder ... --multiprocessing_distributed
 ```
 
 
