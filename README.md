@@ -7,8 +7,7 @@ ECCV 2022
 ## Code
 
 ### Inference the trained model:
-Testing a network is done by using two scripts. First, the `test_DENSE.py` script is used to save the outputs of the network.
-As a second step, the `evaluation_DENSE.py` script is used to calculate the metrics based on these outputs.
+To inference the network using our pre-trained model, you have to run the `test_DENSE.py` script.
 
 To run the `test_DENSE.py` script, `'--path_to_model'` is the model path that you want to evaluate, `'--output_path'` is the folder that saves all the testing results including files with .npy and .png formats ( these files are used in the `evaluation_DENSE.py` script), and you alse need to set the `'--data_folder'` to set the root folder of the testing dataset.
 
@@ -22,7 +21,7 @@ CUDA_VISIBLE_DEVICES=0 python test_DENSE.py --path_to_model .../model_best.pth.t
 To help successfully run the code, the esstential environment on Linux is included in the `requirements.txt`.
 
 ### More Details 
-Please refer to *README_CODE.md* of codes for more Details.
+Please refer to *README_CODE.md* for more details of **training** and **evaluating**.
 
 ## Dataset
 
