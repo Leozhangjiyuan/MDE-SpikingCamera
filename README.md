@@ -6,7 +6,7 @@ ECCV 2022
 
 ## Code
 
-Coming Soon!
+Please refer to *README_CODE.md* of codes for training and testing the paper.
 
 ## Dataset
 
