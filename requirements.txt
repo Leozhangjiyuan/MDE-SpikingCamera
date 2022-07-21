@@ -27,7 +27,7 @@ mkl-random==1.2.2
 mkl-service==2.4.0
 moviepy==1.0.3
 networkx==2.6.3
-numpy==1.21.2
+numpy==1.22.0
 oauthlib==3.1.1
 olefile==0.46
 opencv-python==4.5.5.62
