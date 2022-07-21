@@ -1,10 +1,11 @@
 # MDE-SpikingCamera
- Codes and Datasets of **"Spike Transformer: Monocular Depth Estimation for Spiking Camera"**.
+
+Codes and Datasets of **"Spike Transformer: Monocular Depth Estimation for Spiking Camera"**.
 
 Jiyuan Zhang*, Lulu Tang*, Zhaofei Yu $\dagger$, Jiwen Lu and Tiejun Huang
 
  European Conference on Computer Vision (**ECCV**) 2022.
-
+ ______________________________________________________________
 
 ## Code
 
@@ -19,14 +20,17 @@ Jiyuan Zhang*, Lulu Tang*, Zhaofei Yu $\dagger$, Jiwen Lu and Tiejun Huang
     ```bash
     CUDA_VISIBLE_DEVICES=0 python test_DENSE.py --path_to_model .../model_best.pth.tar --output_path ... --data_folder .../DENSE/test/
     ```
+* More Details for Training and Evaluating
+    
+    Please refer to *README_CODE.md* for more details of **training** and **evaluating**.
 
 * Environments:
 
     To help successfully run the code, the esstential environment on Linux is included in the `requirements.txt`.
 
-* More Details for Training and Evaluating
+* Acknowledgement
     
-    Please refer to *README_CODE.md* for more details of **training** and **evaluating**.
+    The structure of the codebase is borrowed from [RAMNet](https://rpg.ifi.uzh.ch/RAMNet.html) and the base of the encoder backbone is borrowed from  [Video Swin Transformer](https://github.com/SwinTransformer/Video-Swin-Transformer)
 
 ## Dataset
 
