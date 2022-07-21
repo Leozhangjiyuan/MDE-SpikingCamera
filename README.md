@@ -1,7 +1,9 @@
 # MDE-SpikingCamera
- Codes and Datasets of "Spike Transformer: Monocular Depth Estimation for Spiking Camera"
+ Codes and Datasets of **"Spike Transformer: Monocular Depth Estimation for Spiking Camera"**.
 
-ECCV 2022
+Jiyuan Zhang*, Lulu Tang*, Zhaofei Yu $\dag$ , Jiwen Lu and Tiejun Huang
+
+ European Conference on Computer Vision (**ECCV**) 2022.
 
 
 ## Code
