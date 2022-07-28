@@ -1,3 +1,11 @@
+<!--
+ * @Descripttion: 
+ * @version: 
+ * @Author: Jiyuan Zhang
+ * @Date: 2022-07-18 14:46:58
+ * @LastEditors: Jiyuan Zhang
+ * @LastEditTime: 2022-07-28 18:49:53
+-->
 # MDE-SpikingCamera
 
 Codes and Datasets of **"Spike Transformer: Monocular Depth Estimation for Spiking Camera"**.
@@ -8,6 +16,8 @@ Jiyuan Zhang*, Lulu Tang*, Zhaofei Yu $\dagger$, Jiwen Lu and Tiejun Huang
  __________________________________________________
 
 ## Code
+
+* The cleaner and compact version will be soonly updated in this repository. 
 
 * Inference the pre-trained model:
     
